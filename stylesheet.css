@@ -1315,7 +1315,7 @@ o @keyframes bannar_come {
 .photos {
     position: fixed;
     bottom: -200px;
-    opacity: 0.6;
+    opacity: 0.3;
     z-index: 99;
     width: 100px;
     height: 183px;
