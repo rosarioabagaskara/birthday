@@ -255,7 +255,7 @@ $('document').ready(function () {
 
     $('#light_candle').click(function () {
         $('.fuego').fadeIn('slow');
-        $(this).fadeOut('slow').promise().done(function () {
+        $(this).fadeOut('slow').delay(10000).promise().done(function () {
             $('#wish_message').fadeIn('slow');
         });
     });
@@ -284,15 +284,18 @@ $('document').ready(function () {
         $('#b99').animate({ top: 240, left: vw + 350 }, 500);
         $('.balloons').css('opacity', '0.9');
         $('.balloons h2').fadeIn(3000);
-        $(this).fadeOut('slow').delay(3000).promise().done(function () {
+        $(this).fadeOut('slow').delay(15000).promise().done(function () {
             $('#story').fadeIn('slow');
         });
     });
 
     $('#story').click(function () {
         $(this).fadeOut('slow');
-        // var audio = $('.song')[0];
-        // audio.pause();
+        var audio = $('.song')[0];
+        var maroon5 = $('.maroon5')[0];
+        audio.pause();
+        maroon5.play();
+
         $('.cake').fadeOut('fast').promise().done(function () {
             $('.message').fadeIn('slow');
         });
