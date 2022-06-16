@@ -3,7 +3,6 @@ Happy Birthday
 A Happy Birthday animation design in CSS3, HTML5.
 
 The original code is created by ayusharma.
-tes
 In this repo I added a photos, a song, and edited some text.
 
 Technology Used: HTML5 CSS3 jQuery  GNU/Linux Digital Ocean as VPS GIMP
